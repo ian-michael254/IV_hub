@@ -4,7 +4,14 @@
     box-sizing:border-box
 }
 body{
-    background:lightpink;
+    font-family: 'Poppins', sans-serif;
+    background:linear-gradient(to right, #00c6ff, #0072ff);
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
 }
 a,li{
     text-decoration: none;
@@ -29,7 +36,7 @@ a,li{
     align-items:center;
     align-content: center;
     padding:10px;
-    background:#000;
+    background:#0000008f;
     color:#fff;
     
 }
@@ -75,4 +82,6 @@ a,li{
     justify-content:center;
     align-items:center;
 }
+
+
 
