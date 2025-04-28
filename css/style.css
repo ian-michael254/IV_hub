@@ -4,7 +4,7 @@
     box-sizing:border-box
 }
 body{
-    background:lightpink;
+    background-color:red;
 }
 .container{
     width:100%;
@@ -51,3 +51,4 @@ body{
     margin-right:auto;
     padding:5px;
 }
+
