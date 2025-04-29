@@ -3,63 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
+=======
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+>>>>>>> f56d9f0066703c1d0ca8eb8cf82a47fea9ae23b9
     <title>I&V</title>
-    <style>
-        body{
-            background-color: red;
-        }
-    </style>
 </head>
 <body>
-    <nav class="nav">
-        <!--NAVIGATION-->
-        <div class="nav__logo">I&V</div>
-        <ul class="nav__links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+    /* Header Section  with a nested navigation (Should be Responsive)*/
+   <header class="header">
+    <a class="logo" href="#logo"><span>I&V</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Write to Us</a>
+
     </nav>
-   <section class="container">
-    <!--HERO SECTION-->
-    HERO
-   </section>
-   <section class="container">
-    <!--ABOUT SECTION-->
-    ABOUT 
-   </section>
-   <section class="container">
-    <!--MY PROJECTS SECTION-->
-    MY PROJECTS
-   </section>
-   <section class="container">
-    <!--MY SERVICES-->
-    MY SERVICES
-   </section>
-    <section class="container">
-     <!--CONTACT ME-->
-     CONTACT
-     </section>
-   <footer class="footer">
-    <!--FOOTER-->
-    FOOTER
-   </footer>
+    <button class="gradient-btn">Contact Us</button>
+   </header>
+
+   /* Hero Section with a background image and a call to action button */
+   <section class="hero" id="hero">
+    <div class="hero-content">
+        <h1>Hi,I am <span>I&V </span></h1>
+        <h3>I am a <span>Web Developer</span></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur reiciendis, voluptatibus veniam tempora blanditiis doloremque beatae nisi numquam ad ullam eius nobis culpa. Beatae rerum dignissimos fugit non tempore!</p>
+        <div class="social-icons">
+            <a href="#">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-github'></i>
+            </a>
+
+        </div>
+        <div class="btn-grp">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img src="./assets/parabol.jpg" alt="hero image">
+    </div>
+    </section>
+
+    /* About Section with a background color and a list of skills */
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="./js/script.js"></script>    
+    <script src="./js/script.js"></script>
 </body>
 </html>
