@@ -64,7 +64,7 @@ body{
     color:transparent;
 }
 .navbar a{
-   font-size:1.8rem;
+   font-size:small;
    color:var(--text-color);
    margin-left: 4rem;
    font-weight: 500;
